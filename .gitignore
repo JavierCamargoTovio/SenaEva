@@ -21,7 +21,7 @@ senaEva.iml
 
 # Gradle:
 .idea/gradle.xml
-.idea/libraries
+
 
 # Mongo Explorer plugin:
 .idea/mongoSettings.xml
@@ -35,7 +35,6 @@ senaEva.iml
 /out/
 
 # mpeltonen/sbt-idea plugin
-.idea_modules/
 
 # JIRA plugin
 atlassian-ide-plugin.xml
