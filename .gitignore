@@ -8,7 +8,8 @@
 .idea/dictionaries
 .idea/vcs.xml
 .idea/jsLibraryMappings.xml
-
+.idea/modules.xml
+.idea/misc.xml
 # Sensitive or high-churn files:
 .idea/dataSources.ids
 .idea/dataSources.xml
@@ -17,8 +18,7 @@
 .idea/dynamic.xml
 .idea/uiDesigner.xml
 senaEva.iml
-.idea/modules.xml
-.idea/misc.xml
+
 # Gradle:
 .idea/gradle.xml
 .idea/libraries
