@@ -17,6 +17,8 @@
 .idea/dynamic.xml
 .idea/uiDesigner.xml
 senaEva.iml
+modules.xml
+misc.xml
 # Gradle:
 .idea/gradle.xml
 .idea/libraries
