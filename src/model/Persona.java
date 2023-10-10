@@ -14,18 +14,20 @@ public class Persona {
 
     protected int edad;
 
+    protected String correo;
+
     protected String telefono;
 
     protected String direccion;
 
     //Constructor
-    public Persona(int idPersona, String nombre, String apellidos, String sexo, int edad,
-                   String telefono, String direccion) {
-        this.idPersona = idPersona;
+    public Persona(String nombre, String apellidos, String sexo, int edad,
+                   String correo,String telefono, String direccion) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.sexo = sexo;
         this.edad = edad;
+        this.correo = correo;
         this.telefono = telefono;
         this.direccion = direccion;
     }
@@ -71,6 +73,13 @@ public class Persona {
         this.edad = edad;
     }
 
+    public String getCorreo() {
+        return correo;
+    }
+
+    public void setCorreo(String correo) {
+        this.correo = correo;
+    }
     public String getTelefono() {
         return telefono;
     }
@@ -111,12 +120,12 @@ public class Persona {
     //Método para mostrar la infomacion de las personas
     @Override
     public String toString() {
-        return "Información de la Persona: " +
-                "\nIdPersona: " + idPersona +
+        return
                 "\nNombre: " + nombre +
                 "\nApellidos: " + apellidos +
                 "\nSexo: " + sexo +
                 "\nEdad: " + edad + " Años" +
+                "\nCorreo: " + correo +
                 "\nTelefono: " + telefono +
                 "\nDireccion: " + direccion;
     }
