@@ -1,9 +1,6 @@
 package test;
 
-import model.Cliente;
-import model.Persona;
-import model.Proveedor;
-import model.Usuario;
+import model.*;
 
 public class Test {
     public static void main(String[] args) {
@@ -25,6 +22,14 @@ public class Test {
                 28,"evarequena@gmail.com", "30155553","Medellin", "Activo", "Administrador");
 
         System.out.println(usuario1);
+
+        //Se crea la instancia del objecto Categoria
+        Categoria Categoria01 = new Categoria(12345, "Cementos", "Cementos gris", true);
+        System.out.println(Categoria01.mostrarInformacion());
+
+        //Se crea la instancia del objecto Producto
+        Producto producto01 = new Producto(7878, "Cementos", "Argos", "CEM001", Categoria01, 20, 25600);
+        System.out.println(producto01.mostrarInformacionProducto());
     }
 
 }
