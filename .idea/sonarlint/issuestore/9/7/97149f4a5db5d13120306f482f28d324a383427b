@@ -1,0 +1,20 @@
+
+o
+java:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(äÜ¶Ó
+k	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãüğ¸ùÿÿÿÿ
+k	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ¥Í÷ùÿÿÿÿ
+Y
+java:S1854">Remove this useless assignment to local variable "proveedor1".(¾ú“ûÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ä âƒ
+J
+java:S1481"/Remove this unused "proveedor1" local variable.(¾ú“ûÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(†»ÚR
+Q	java:S125"<This block of commented-out lines of code should be removed.(ã‚ë›
+Q	java:S125""<This block of commented-out lines of code should be removed.(•ëíÚ
+Q	java:S125'"<This block of commented-out lines of code should be removed.(ì¥í
+V	java:S125,"<This block of commented-out lines of code should be removed.(ñ§îÃÿÿÿÿÿ
+P	java:S125."<This block of commented-out lines of code should be removed.(òğöw
+@	java:S1066"+Replace this use of System.out by a logger.(µò­­
+E	java:S106<"+Replace this use of System.out by a logger.(°”Ç¥üÿÿÿÿ
+@	java:S106="+Replace this use of System.out by a logger.(ß¯ÇŒ
+E	java:S106>"+Replace this use of System.out by a logger.(°”Ç¥üÿÿÿÿ
