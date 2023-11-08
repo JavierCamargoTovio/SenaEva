@@ -1,16 +1,17 @@
 package model;
 
-//Nombre d ela clase
+//Nombre de la clase
 public class Categoria {
     //Atributos
-    private int idCategoria;
+    private int codigo;
     private String nombre;
     private String descripcion;
-    private String estado;
+    private boolean estado;
 
     //Constructor
-    public Categoria(int idCategoria, String nombre, String descripcion, String estado) {
-        this.idCategoria = idCategoria;
+
+    public Categoria(int codigo, String nombre, String descripcion, boolean estado) {
+        this.codigo = codigo;
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.estado = estado;
@@ -18,13 +19,12 @@ public class Categoria {
 
     //Métodos getter y setter
 
-
-    public int getIdCategoria() {
-        return idCategoria;
+    public int getCodigo() {
+        return codigo;
     }
 
-    public void setIdCategoria(int idCategoria) {
-        this.idCategoria = idCategoria;
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
     }
 
     public String getNombre() {
@@ -43,33 +43,37 @@ public class Categoria {
         this.descripcion = descripcion;
     }
 
-    public String getEstado() {
+    public boolean isEstado() {
         return estado;
     }
 
-    public void setEstado(String estado) {
+    public void setEstado(boolean estado) {
         this.estado = estado;
     }
 
-    //Método para agregar categoria - por ahora quedará vacio mas tarde implementaremos el método
-    public void agregarCategoria(){}
+    //Método para agregar una categoria - lo dejamos vació por momento para luego ir desarrollando su funcionalidad
+    public void agregarCategoria() {
+    }
+    //Método para buscar una categoria - lo dejamos vació por momento para luego ir desarrollando su funcionalidad
+    public void buscarCategoria() {
+    }
 
-    //Método para modificar categoria - por ahora quedará vacio mas tarde implementaremos el método
-    public void modificarCategoria(){}
+    //Método para modificar una categoria - lo dejamos vació por momento para luego ir desarrollando su funcionalidad
+    public void editarCategoria() {
+    }
+    //Método para eliminar una categoria - lo dejamos vació por momento para luego ir desarrollando su funcionalidad
+    public void eliminarCategoria() {
+    }
 
-    //Método para buscar categoria - por ahora quedará vacio mas tarde implementaremos el método
-    public void buscarCategoria(){}
-
-    //Método para eliminar categoria - por ahora quedará vacio mas tarde implementaremos el método
-    public void eliminarCategoria(){}
-
-    //Método para mostrar la información de la categoria
-    public String mostrarInformacionCategoria(){
-        return "----------------------------" +
-                "\nDatos de la Categoria " +
-                "\nId Categoria: " + idCategoria +
-                "\nNombre: " + nombre +
-                "\nDescripción: " + descripcion +
-                "\nEstado: " + estado;
+    /* Método que nos permite
+     obtener la información del(objecto) de los productos
+        */
+    public String mostrarInformacion() {
+        return "-----------------------" +
+                "\nDatos de la Categoria" +
+                "\nCodigo Categoria: " + codigo +
+                "\nNombre de la Categoria: " + nombre +
+                "\nDescripcion de la Categoria: " + descripcion +
+                "\nEstado de la Categoria: " + estado;
     }
 }
